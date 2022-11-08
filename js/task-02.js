@@ -12,8 +12,8 @@ for (const obj of ingredients) {
   const element = document.createElement("li");
   element.textContent = obj;
   element.classList.add("item");
-  ingredientsEl.append(element);
-}
+ ingredientsEl.append(element);
+};
 
 
 
